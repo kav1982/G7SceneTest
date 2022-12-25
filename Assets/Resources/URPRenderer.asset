@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
+  m_Name: URPRenderer
+  m_EditorClassIdentifier: 
+  m_RendererFeatures:
+  - {fileID: 2167487015157548517}
+  m_RendererFeatureMap: e5c5bcd9f475141e
+  postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
+  xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
+  shaders:
+    blitPS: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
+    copyDepthPS: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
+    screenSpaceShadowPS: {fileID: 4800000, guid: 0f854b35a0cf61a429bd5dcfea30eddd, type: 3}
+    samplingPS: {fileID: 4800000, guid: 04c410c9937594faa893a11dceb85f7e, type: 3}
+    tileDepthInfoPS: {fileID: 0}
+    tileDeferredPS: {fileID: 0}
+    stencilDeferredPS: {fileID: 4800000, guid: e9155b26e1bc55942a41e518703fe304, type: 3}
+    fallbackErrorPS: {fileID: 4800000, guid: e6e9a19c3678ded42a3bc431ebef7dbd, type: 3}
+    materialErrorPS: {fileID: 4800000, guid: 5fd9a8feb75a4b5894c241777f519d4e, type: 3}
+    uiMergePS: {fileID: 4800000, guid: b25a21f3da3ea4048aefc580e68db928, type: 3}
+  m_OpaqueLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_TransparentLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_DefaultStencilState:
+    overrideStencilState: 0
+    stencilReference: 0
+    stencilCompareFunction: 8
+    passOperation: 2
+    failOperation: 0
+    zFailOperation: 0
+  m_ShadowTransparentReceive: 1
+  m_RenderingMode: 0
+  m_AccurateGbufferNormals: 0
+--- !u!114 &2167487015157548517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c939bd5fbe3fcc4289ca737ee4d3da8, type: 3}
+  m_Name: MyRendererFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  warFogSettings:
+    maskTexSize: 512
+    blurBase: 1
+    blurStep: 0.8
+    extSize: 1
+    fogBlurMat: {fileID: 2100000, guid: 422f7910aa54e524686b9f3f1f760eb5, type: 2}
+  terrainBlendSettings:
+    texSize: 512
+  radialBlurSettings:
+    renderPassEvent: 600
+    radialBlurMat: {fileID: 2100000, guid: 2c02b6fad6fcfca4fa23f6b9ec3523b0, type: 2}
+  cloudShadowSettings:
+    cloudTexture: {fileID: 2800000, guid: f9e639721906a334ab5df771dc4a926a, type: 3}
+    material: {fileID: 2100000, guid: 85255bbe5e902db468859850d55ff00a, type: 2}
+    cloudTiling: {x: 5, y: 5}
+    cloudWindSpeed: {x: 0.1, y: -0.1}
+    shadowColor: {r: 0.11480955, g: 0.33715406, b: 0.5660378, a: 0.48235294}
+    dirty: 0
+  tAASettings:
+    Use32Bit: 1
+    Shader: {fileID: 4800000, guid: 09b7932e23a72e540ad1337c85664d17, type: 3}
+    material: {fileID: 0}
+  waveSettings:
+    IsActive: 0
+    drawMat: {fileID: 0}
+    waveMat: {fileID: 0}
+    TouchWide: 1
+    rt1: {fileID: 0}
+    rt2: {fileID: 0}
+    rt3: {fileID: 0}

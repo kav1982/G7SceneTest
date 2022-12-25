@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8264304707051631187
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
+  m_Name: Vignette
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  color:
+    m_OverrideState: 1
+    m_Value: {r: 0.07694019, g: 0.102513134, b: 0.122641504, a: 1}
+    hdr: 0
+    showAlpha: 0
+    showEyeDropper: 1
+  center:
+    m_OverrideState: 1
+    m_Value: {x: 0.5, y: 0.5}
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.3
+    min: 0
+    max: 1
+  smoothness:
+    m_OverrideState: 1
+    m_Value: 0.8
+    min: 0.01
+    max: 1
+  rounded:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &-2683276889692036856
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72eb3d21e84710a47a6615ec200aed43, type: 3}
+  m_Name: EdgeDetection
+  m_EditorClassIdentifier: 
+  active: 0
+  m_AdvancedMode: 0
+  isActive:
+    m_OverrideState: 0
+    m_Value: 0
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.36
+    min: 0
+    max: 3
+  thickness:
+    m_OverrideState: 1
+    m_Value: 0.89
+    min: 0
+  normalThreshold:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 4.9215755}
+    min: 0
+    max: 360
+  depthThreshold:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0.27143812}
+    min: 0
+    max: 1
+  color:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: VolueProfile
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: -8264304707051631187}
+  - {fileID: 5974727204644178780}
+  - {fileID: 6662667182273559445}
+--- !u!114 &4280809573572630436
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab32cb23dd4e60947add571cc2f1cbe5, type: 3}
+  m_Name: Saturation
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  isActive:
+    m_OverrideState: 1
+    m_Value: 1
+  upValue:
+    m_OverrideState: 1
+    m_Value: 0.69
+    min: 0
+    max: 3
+  midPos:
+    m_OverrideState: 1
+    m_Value: 0.5
+    min: 0.01
+    max: 0.99
+  downValue:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 3
+--- !u!114 &5974727204644178780
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab32cb23dd4e60947add571cc2f1cbe5, type: 3}
+  m_Name: Saturation
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  isActive:
+    m_OverrideState: 1
+    m_Value: 1
+  upValue:
+    m_OverrideState: 1
+    m_Value: 0.5
+    min: 0
+    max: 3
+  midPos:
+    m_OverrideState: 1
+    m_Value: 0.5
+    min: 0.01
+    max: 0.99
+  downValue:
+    m_OverrideState: 1
+    m_Value: 1.2
+    min: 0
+    max: 3
+--- !u!114 &6662667182273559445
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 741182720f1f78c44852c5c2398a7389, type: 3}
+  m_Name: TAA
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  Enabled:
+    m_OverrideState: 1
+    m_Value: 1
+  Blend:
+    m_OverrideState: 1
+    m_Value: 0.9375
+    min: 0.5
+    max: 0.999
+  SamplePointCount:
+    m_OverrideState: 1
+    m_Value: 8
+    min: 2
+  Sharpness:
+    m_OverrideState: 1
+    m_Value: 1.7
+    min: 0
+    max: 8
+  Fraction:
+    m_OverrideState: 1
+    m_Value: 2.4
+    min: 0.01
+    max: 8
+  AntiGhosting:
+    m_OverrideState: 0
+    m_Value: 1
+--- !u!114 &8335663243304940325
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edc7fcfa022d5cf49b16ac4bc9d2e434, type: 3}
+  m_Name: FogOfWar
+  m_EditorClassIdentifier: 
+  active: 0
+  m_AdvancedMode: 0
+  isActive:
+    m_OverrideState: 1
+    m_Value: 0
+  baseColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.05490196, g: 0.16078432, b: 0.24705882, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  overallHeight:
+    m_OverrideState: 1
+    m_Value: 180
+  heightScale:
+    m_OverrideState: 1
+    m_Value: 0.45
+  heightOffset:
+    m_OverrideState: 1
+    m_Value: 0.06
+  darkColorAdjust:
+    m_OverrideState: 1
+    m_Value: 0.5
+  fogEdgeNoiseTex2D:
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: 78967dff4a4c1fd40a60205d7d5d5e13, type: 3}
+  edgeUVScale:
+    m_OverrideState: 1
+    m_Value: 12.33
+  edgeUVSpeed:
+    m_OverrideState: 1
+    m_Value: 1.56
+  edgeNoiseStrength:
+    m_OverrideState: 1
+    m_Value: 0.183
+    min: 0
+    max: 1
+  fogEdgeColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.30838373, g: 0.505661, b: 0.8490566, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  fogEdgeScale:
+    m_OverrideState: 1
+    m_Value: 1.93
+  enableDepth:
+    m_OverrideState: 1
+    m_Value: 1
+  fogUVTex2D:
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: 0c6524cba794f8b4aba590bba00cb7df, type: 3}
+  depthColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.2804824, g: 0.3106783, b: 0.31132078, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  depthUVScale:
+    m_OverrideState: 1
+    m_Value: 0.2
+  depthUVSpeed:
+    m_OverrideState: 1
+    m_Value: 8
+  depthStart:
+    m_OverrideState: 1
+    m_Value: -135
+  depthEnd:
+    m_OverrideState: 1
+    m_Value: 250
+  depthNoiseAmount:
+    m_OverrideState: 1
+    m_Value: 5
+  selectColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1

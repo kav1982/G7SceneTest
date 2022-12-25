@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: VolumeProfile
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 1604514460727194048}
+  - {fileID: 7946961566557144253}
+  - {fileID: 6702300530165385693}
+--- !u!114 &1604514460727194048
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edc7fcfa022d5cf49b16ac4bc9d2e434, type: 3}
+  m_Name: FogOfWar
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  isActive:
+    m_OverrideState: 1
+    m_Value: 1
+  baseColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.08032218, g: 0.1347299, b: 0.1792453, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  overallHeight:
+    m_OverrideState: 1
+    m_Value: 180
+  heightScale:
+    m_OverrideState: 1
+    m_Value: 0.5
+  heightOffset:
+    m_OverrideState: 1
+    m_Value: 0.5
+  darkColorAdjust:
+    m_OverrideState: 1
+    m_Value: 0.5
+  fogEdgeNoiseTex2D:
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: 5ff175d5fdc1dd544a4866796047c4ee, type: 3}
+  edgeUVScale:
+    m_OverrideState: 1
+    m_Value: 1
+  edgeUVSpeed:
+    m_OverrideState: 1
+    m_Value: 0.4
+  edgeNoiseStrength:
+    m_OverrideState: 1
+    m_Value: 0.215
+    min: 0
+    max: 1
+  fogEdgeColor:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  fogEdgeScale:
+    m_OverrideState: 1
+    m_Value: 2.2
+  enableDepth:
+    m_OverrideState: 1
+    m_Value: 1
+  fogUVTex2D:
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: 0c6524cba794f8b4aba590bba00cb7df, type: 3}
+  depthColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.46342114, g: 0.7249763, b: 0.7735849, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  depthUVScale:
+    m_OverrideState: 1
+    m_Value: 0.06
+  depthUVSpeed:
+    m_OverrideState: 1
+    m_Value: 1.1
+  depthStart:
+    m_OverrideState: 1
+    m_Value: 80
+  depthEnd:
+    m_OverrideState: 1
+    m_Value: 180
+  depthNoiseAmount:
+    m_OverrideState: 1
+    m_Value: 5
+  selectColor:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0.5863812, b: 1, a: 0.44705883}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  warFogColor:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 0.7}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+--- !u!114 &6702300530165385693
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
+  m_Name: Vignette
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  color:
+    m_OverrideState: 1
+    m_Value: {r: 0.008232466, g: 0.03514795, b: 0.047169805, a: 1}
+    hdr: 0
+    showAlpha: 0
+    showEyeDropper: 1
+  center:
+    m_OverrideState: 1
+    m_Value: {x: 0.5, y: 0.5}
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.4
+    min: 0
+    max: 1
+  smoothness:
+    m_OverrideState: 1
+    m_Value: 0.3
+    min: 0.01
+    max: 1
+  rounded:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &7946961566557144253
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab32cb23dd4e60947add571cc2f1cbe5, type: 3}
+  m_Name: Saturation
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  isActive:
+    m_OverrideState: 1
+    m_Value: 1
+  upValue:
+    m_OverrideState: 1
+    m_Value: 0.5
+    min: 0
+    max: 3
+  midPos:
+    m_OverrideState: 1
+    m_Value: 0.5
+    min: 0.01
+    max: 0.99
+  downValue:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 3

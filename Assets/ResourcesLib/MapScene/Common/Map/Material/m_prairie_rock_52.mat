@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: m_prairie_rock_52
+  m_Shader: {fileID: 4800000, guid: 832f8ff80d6bf45448df1d71e664d6c8, type: 3}
+  m_ShaderKeywords: _TERRAIN_BLEND_FUNC
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 3d1271b21c35d9344bba61c406cef304, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveAOMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 3d1271b21c35d9344bba61c406cef304, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMetalSmoothMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOColStrength: 1
+    - _AOStrength: 1
+    - _AddColorToggle: 0
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BlendMode: 0
+    - _BumpScale: 1
+    - _ButGradientIntensity: 1
+    - _ButGradientToggle: 0
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Contrast: 0
+    - _Cull: 2
+    - _CullMode: 0
+    - _Cutoff: 0.5
+    - _DarkLigthIntensity: 2.58
+    - _DarkPartToggle: 0
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DitherClip: 0
+    - _DstBlend: 0
+    - _EdgeAngle: 0
+    - _EdgeAngleScale: 0
+    - _EdgeMaskScale: 1.41
+    - _EdgePow: 1.01
+    - _EdgeThred: 0.125
+    - _EmissiveAOMapUseUV2: 0
+    - _EmissiveBake: 0
+    - _EmissiveBakeBoost: 1
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _NormalScale: 1
+    - _OcclusionStrength: 1
+    - _OutlineToggle: 0
+    - _PAPER: 0
+    - _Parallax: 0.005
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _RenderQueue: 0
+    - _RimOffsetX: 0.4
+    - _RimOffsetY: 0.4
+    - _RimSmooth: 0.1
+    - _RimToggle: 0
+    - _SSSToggle: 0
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _Surface: 0
+    - _TerrainBlendFalloff: 8
+    - _TerrainBlendHeight: 0.1
+    - _TerrainBlendToggle: 1
+    - _TestValue: 0
+    - _TopColWS: 0
+    - _TopYOffset: 0
+    - _TopYOne: 0.5
+    - _TopYStrength: 0
+    - _TopYZero: 0.5
+    - _Transparent: 1
+    - _TransparentShadowCaster: 0
+    - _TransparentZWrite: 0
+    - _VertexAO: 0
+    - _VertexAOStrength: 1
+    - _WindDirection: 40
+    - _WindIntensity: 0.2
+    - _WindScale: 0.2
+    - _WindSpeed: 0.5
+    - _WindToggle: 0
+    - _WorkflowMode: 1
+    - _YAtten: 2.63
+    - _YAttenBut: 0.5
+    - _YClip: 0.972
+    - _YClipBut: 0.5
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
+    - _ButGradientCol: {r: 0, g: 0, b: 0, a: 0}
+    - _ButGradientParam: {r: 1, g: 0.5, b: 0.5, a: 1}
+    - _Color: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
+    - _DarkParam: {r: 0, g: 2.58, b: 0.972, a: 2.63}
+    - _DarkPartColor: {r: 0.8207547, g: 0.61629826, b: 0.46070665, a: 1}
+    - _EdgeColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EdgeParam: {r: 1.41, g: 0.125, b: 1.01, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
+    - _NormalAOParam: {r: 1, g: 1, b: 0, a: 0}
+    - _PenumbraTintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColorBack: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _RimColorFront: {r: 1, g: 1, b: 1, a: 1}
+    - _RimParam: {r: 0.4, g: 0.4, b: 0.1, a: 5}
+    - _SSSColor: {r: 0.5, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _TerrainBlendParam: {r: 0.1, g: 8, b: 0, a: 0}
+    - _TopColParam: {r: 0, g: 0, b: 0, a: 0}
+    - _TopColor: {r: 0, g: 0, b: 0, a: 0}
+    - _TransparentParam: {r: 1, g: 0.5, b: 0, a: 0}
+    - _VertexAOCol: {r: 0, g: 0, b: 0, a: 1}
+    - _VertexAOParam: {r: 0, g: 0, b: 0, a: 1}
+    - _WindParam: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &2918910735925936087
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4

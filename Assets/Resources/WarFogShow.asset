@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: WarFogShow
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 8335663243304940325}
+--- !u!114 &8335663243304940325
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edc7fcfa022d5cf49b16ac4bc9d2e434, type: 3}
+  m_Name: FogOfWar
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  isActive:
+    m_OverrideState: 1
+    m_Value: 1
+  baseColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.05490196, g: 0.16078432, b: 0.24705882, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  overallHeight:
+    m_OverrideState: 1
+    m_Value: 150
+  heightScale:
+    m_OverrideState: 1
+    m_Value: 0.45
+  heightOffset:
+    m_OverrideState: 1
+    m_Value: 0.06
+  darkColorAdjust:
+    m_OverrideState: 1
+    m_Value: 0.5
+  fogEdgeNoiseTex2D:
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: 5ff175d5fdc1dd544a4866796047c4ee, type: 3}
+  edgeUVScale:
+    m_OverrideState: 1
+    m_Value: 3
+  edgeUVSpeed:
+    m_OverrideState: 1
+    m_Value: 1.5
+  edgeNoiseStrength:
+    m_OverrideState: 1
+    m_Value: 0.094
+    min: 0
+    max: 1
+  fogEdgeColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.25, g: 0.4772725, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  fogEdgeScale:
+    m_OverrideState: 1
+    m_Value: 1.45
+  enableDepth:
+    m_OverrideState: 1
+    m_Value: 1
+  fogUVTex2D:
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: 0c6524cba794f8b4aba590bba00cb7df, type: 3}
+  depthColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.40089887, g: 0.5943396, b: 0.5943396, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  depthUVScale:
+    m_OverrideState: 1
+    m_Value: 0.2
+  depthUVSpeed:
+    m_OverrideState: 1
+    m_Value: 8
+  depthStart:
+    m_OverrideState: 1
+    m_Value: 50
+  depthEnd:
+    m_OverrideState: 1
+    m_Value: 150
+  depthNoiseAmount:
+    m_OverrideState: 1
+    m_Value: 5
+  selectColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 0.44705883}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1

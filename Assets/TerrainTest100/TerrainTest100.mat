@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TerrainTest100
+  m_Shader: {fileID: 4800000, guid: 88be714064d2b0c4b91d3997784b8836, type: 3}
+  m_ShaderKeywords: LIGHTMODEL_LAMBERT TERRAIN_4TEX _TERRAIN_4TEX
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Control:
+        m_Texture: {fileID: 2800000, guid: 567cbeb9780e79e42b68d159171715d7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 15, y: 15}
+        m_Offset: {x: 0, y: 0}
+    - _Normal1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 15, y: 15}
+        m_Offset: {x: 0, y: 0}
+    - _Normal2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 15, y: 15}
+        m_Offset: {x: 0, y: 0}
+    - _Normal3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 15, y: 15}
+        m_Offset: {x: 0, y: 0}
+    - _Splat0:
+        m_Texture: {fileID: 2800000, guid: ecccd28ff165f094c814c693e7f9f9ed, type: 3}
+        m_Scale: {x: 15, y: 15}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1:
+        m_Texture: {fileID: 2800000, guid: baecf0e751099b045b94ee0f61b07f99, type: 3}
+        m_Scale: {x: 15, y: 15}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2:
+        m_Texture: {fileID: 2800000, guid: 30e506b8edf2f26448d283b439905f10, type: 3}
+        m_Scale: {x: 15, y: 15}
+        m_Offset: {x: 0, y: 0}
+    - _Splat3:
+        m_Texture: {fileID: 2800000, guid: 78110d2d0f0d7fe4499d78d5f078bed9, type: 3}
+        m_Scale: {x: 15, y: 15}
+        m_Offset: {x: 0, y: 0}
+    - _SplatMask0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SplatMask1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SplatMask2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SplatMask3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - ENABLE_NORMAL_INTENSITY: 0
+    - _AOColStrength: 1
+    - _AOStrength0: 1
+    - _AOStrength1: 1
+    - _AOStrength2: 1
+    - _AOStrength3: 1
+    - _AlphaCutoff: 0.5
+    - _F0Strength0: 0.5
+    - _F0Strength1: 0.5
+    - _F0Strength2: 0.5
+    - _F0Strength3: 0.5
+    - _F0Tint0: 0
+    - _F0Tint1: 0
+    - _F0Tint2: 0
+    - _F0Tint3: 0
+    - _FresnelStrength0: 1
+    - _FresnelStrength1: 1
+    - _FresnelStrength2: 1
+    - _FresnelStrength3: 1
+    - _HeightBlendWeight: 0.5
+    - _LightingModel: 0
+    - _NormalIntensity0: 1
+    - _NormalIntensity1: 1
+    - _NormalIntensity2: 1
+    - _NormalIntensity3: 1
+    - _NormalMapToggle: 0
+    - _NormalScale0: 1
+    - _NormalScale1: 1
+    - _NormalScale2: 1
+    - _NormalScale3: 1
+    - _Smoothness0: 0.5
+    - _Smoothness1: 0.5
+    - _Smoothness2: 0.5
+    - _Smoothness3: 0.5
+    - _SplatScale0: 11
+    - _SplatScale1: 11
+    - _SplatScale2: 11
+    - _SplatScale3: 11
+    - _TexCount: 4
+    - _Tilling0: 1
+    - _Tilling1: 1
+    - _Tilling2: 1
+    - _Tilling3: 1
+    - _VertexAO: 0
+    - _VertexAOStrength: 1
+    m_Colors:
+    - _AOStrength: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 1, g: 1, b: 1, a: 0.5}
+    - _Color1: {r: 1, g: 1, b: 1, a: 0.5}
+    - _Color2: {r: 1, g: 1, b: 1, a: 0.5}
+    - _Color3: {r: 1, g: 1, b: 1, a: 0.5}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _F0Strength: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _F0Tint: {r: 0, g: 0, b: 0, a: 0}
+    - _FresnelStrength: {r: 1, g: 1, b: 1, a: 1}
+    - _NormalScale: {r: 1, g: 1, b: 1, a: 1}
+    - _PenumbraTintColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Smoothness: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _SplatScale: {r: 11, g: 11, b: 11, a: 11}
+    - _Tilling: {r: 1, g: 1, b: 1, a: 1}
+    - _VertexAOCol: {r: 0, g: 0, b: 0, a: 1}
+    - _VertexAOParam: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

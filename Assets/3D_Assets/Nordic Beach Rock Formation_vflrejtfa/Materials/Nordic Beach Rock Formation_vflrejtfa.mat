@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Nordic Beach Rock Formation_vflrejtfa
+  m_Shader: {fileID: 4800000, guid: 832f8ff80d6bf45448df1d71e664d6c8, type: 3}
+  m_ShaderKeywords: _OUTLINE _TERRAIN_4TEX _TERRAIN_BLEND_FUNC
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses:
+  - DistortionVectors
+  - MOTIONVECTORS
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  - RayTracingPrepass
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: ed9693b879f91644d9f3150b95099cbc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: d45cb8dfa93a5de46990d94457f4dca5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveAOMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ed9693b879f91644d9f3150b95099cbc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: f2467b8184d7a0e45ab9233f8c4ad7cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMetalSmoothMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SplatMask0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SplatMask1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SplatMask2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SplatMask3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOColStrength: 1
+    - _AOStrength: 1
+    - _AOStrength0: 1
+    - _AOStrength1: 1
+    - _AOStrength2: 1
+    - _AOStrength3: 1
+    - _AddColorToggle: 0
+    - _BlendMode: 0
+    - _BumpScale: 1
+    - _ButGradientIntensity: 0.67
+    - _ButGradientToggle: 0
+    - _Contrast: 0.243
+    - _Cull: 2
+    - _CullMode: 0
+    - _Cutoff: 0.5
+    - _DarkLigthIntensity: 20
+    - _DarkPartToggle: 0
+    - _DetailNormalMapScale: 1
+    - _DitherClip: 0
+    - _DstBlend: 0
+    - _EdgeAngle: 0
+    - _EdgeAngleScale: 0
+    - _EdgeMaskScale: 1.03
+    - _EdgePow: 0.37
+    - _EdgeThred: 0.208
+    - _EmissiveAOMapUseUV2: 0
+    - _EmissiveBake: 0
+    - _EmissiveBakeBoost: 1.13
+    - _F0Strength0: 0.5
+    - _F0Strength1: 0.5
+    - _F0Strength2: 0.5
+    - _F0Strength3: 0.5
+    - _F0Tint0: 0
+    - _F0Tint1: 0
+    - _F0Tint2: 0
+    - _F0Tint3: 0
+    - _FresnelStrength0: 1
+    - _FresnelStrength1: 1
+    - _FresnelStrength2: 1
+    - _FresnelStrength3: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HeightBlendWeight: 0.5
+    - _Metallic: 1
+    - _Mode: 0
+    - _NormalScale: 1
+    - _NormalScale0: 1
+    - _NormalScale1: 1
+    - _NormalScale2: 1
+    - _NormalScale3: 1
+    - _OcclusionStrength: 1
+    - _OutlineToggle: 1
+    - _PAPER: 0
+    - _Parallax: 0.02
+    - _RenderQueue: 0
+    - _RimOffsetX: 0.4
+    - _RimOffsetY: 0.4
+    - _RimSmooth: 0.1
+    - _RimToggle: 0
+    - _SSSToggle: 0
+    - _Smoothness0: 0.5
+    - _Smoothness1: 0.5
+    - _Smoothness2: 0.5
+    - _Smoothness3: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _TerrainBlendFalloff: 1.38
+    - _TerrainBlendHeight: 0.36
+    - _TerrainBlendToggle: 1
+    - _TestValue: 0
+    - _TexCount: 4
+    - _Tilling0: 1
+    - _Tilling1: 1
+    - _Tilling2: 1
+    - _Tilling3: 1
+    - _Transparent: 1
+    - _TransparentShadowCaster: 0
+    - _TransparentZWrite: 0
+    - _UVSec: 0
+    - _VertexAO: 0
+    - _VertexAOStrength: 1
+    - _WindDirection: 40
+    - _WindIntensity: 0.2
+    - _WindScale: 0.2
+    - _WindSpeed: 0.5
+    - _WindToggle: 0
+    - _YAtten: 3.11
+    - _YAttenBut: 1.24
+    - _YClip: 0.473
+    - _YClipBut: 0.073
+    - _ZWrite: 1
+    m_Colors:
+    - _AOStrength: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ButGradientCol: {r: 0.42745098, g: 0.2585752, b: 0.21960784, a: 1}
+    - _ButGradientParam: {r: 0.67, g: 0.073, b: 1.24, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 1, g: 1, b: 1, a: 0.5}
+    - _Color1: {r: 1, g: 1, b: 1, a: 0.5}
+    - _Color2: {r: 1, g: 1, b: 1, a: 0.5}
+    - _Color3: {r: 1, g: 1, b: 1, a: 0.5}
+    - _DarkParam: {r: 0.243, g: 20, b: 0.473, a: 3.11}
+    - _DarkPartColor: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 1}
+    - _EdgeColor: {r: 0.3679245, g: 0.29154086, b: 0.26900142, a: 1}
+    - _EdgeParam: {r: 1.03, g: 0.208, b: 0.37, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1.13}
+    - _F0Strength: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _F0Tint: {r: 0, g: 0, b: 0, a: 0}
+    - _FresnelStrength: {r: 1, g: 1, b: 1, a: 1}
+    - _NormalAOParam: {r: 1, g: 1, b: 0, a: 0}
+    - _NormalScale: {r: 1, g: 1, b: 1, a: 1}
+    - _PenumbraTintColor: {r: 0.5943396, g: 0.37555054, b: 0.14297791, a: 1}
+    - _RimColorBack: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _RimColorFront: {r: 1, g: 1, b: 1, a: 1}
+    - _RimParam: {r: 0.4, g: 0.4, b: 0.1, a: 5}
+    - _SSSColor: {r: 0.5, g: 0, b: 0, a: 1}
+    - _Smoothness: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _TerrainBlendParam: {r: 0.36, g: 1.38, b: 0, a: 0}
+    - _Tilling: {r: 1, g: 1, b: 1, a: 1}
+    - _TransparentParam: {r: 1, g: 0.5, b: 0, a: 0}
+    - _VertexAOCol: {r: 0, g: 0, b: 0, a: 1}
+    - _VertexAOParam: {r: 1, g: 1, b: 0, a: 0}
+    - _WindParam: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

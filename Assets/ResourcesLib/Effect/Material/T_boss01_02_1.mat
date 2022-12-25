@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: T_boss01_02_1
+  m_Shader: {fileID: 4800000, guid: 44782d460cf6402428cc351acb3e8730, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: f7903fb9de7cd6c4c81c650bff15be3c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisplacementMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortMap0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortMap1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f7903fb9de7cd6c4c81c650bff15be3c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryDistortMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ADDITIVESOFT_ON: 0
+    - _ALPHATEST_ON: 0
+    - _AniSheetSpeed: 1
+    - _AnimationSheet: 0
+    - _BaseColorIntensity: 1
+    - _BaseMapAlphaChannel: 3
+    - _BaseMapContrast: 0
+    - _BaseMapUVAniSource: 0
+    - _BaseMapUVSource: 0
+    - _BlendMode: 1
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ClipToggle: 0
+    - _ClipUI: 0
+    - _ColorMode: 0
+    - _Cull: 0
+    - _CullMode: 2
+    - _CustomQueueOffset: 0
+    - _Cutoff: 0.5
+    - _DisplacementMapUVSource: 0
+    - _DisplacementStrength: 0
+    - _Dissolve: 0
+    - _DissolveAni: 0
+    - _DissolveEdge: 0.1
+    - _DissolveEdgeMode: 0
+    - _DissolveEdgeSoft: 0.2
+    - _DissolveFactor: 0.5
+    - _DissolveMapUVSource: 0
+    - _DissolveMode: 0
+    - _DissolveRotateAngle: 0
+    - _DissolveSoft: 0.2
+    - _Distort: 0
+    - _Distort0Factor: 0.15
+    - _Distort1Factor: 0.15
+    - _DistortFactor: 0.15
+    - _DistortMap0UVSource: 0
+    - _DistortMap1UVSource: 0
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0
+    - _DstBlend: 10
+    - _EdgeContactFade: 1
+    - _EdgeContactMode: 0
+    - _EmissionEnabled: 0
+    - _EnableSecondaryTex: 0
+    - _FlipbookMode: 0
+    - _FogIntensity: 1
+    - _IsFog: 0
+    - _IsParticle: 0
+    - _IsUIEffect: 0
+    - _LightingEnabled: 0
+    - _Loop: 0
+    - _MULTIPLY_ON: 0
+    - _MainTexRotateAngle: 0
+    - _Mask: 0
+    - _MaskAffectAlpha: 0
+    - _MaskAffectDisplacement: 0
+    - _MaskAffectDissolve: 0
+    - _MaskAndDissolveAni: 0
+    - _MaskAni: 0
+    - _MaskApplyDistort: 0
+    - _MaskMapUVSource: 0
+    - _MaskRotateAngle1: 0
+    - _MaskRotateAngle2: 0
+    - _MaskRotateAngle3: 0
+    - _MaskRotationAngle: 0
+    - _MaxX: 1000
+    - _MaxY: 1000
+    - _MinX: -1000
+    - _MinY: -1000
+    - _Mode: 0
+    - _OverlayRender: 0
+    - _ReceiveFog: 0
+    - _Rim: 0
+    - _RimAlphaBlendMode: 0
+    - _RimAlphaSource: 0
+    - _RimColorBlendMode: 0
+    - _RimInverse: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SoftRange: 1
+    - _Soft_Edge: 0
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _SubColorIntensity: 1
+    - _SubMapAlphaChannel: 3
+    - _SubMapContrast: 0
+    - _SubMapUVSource: 0
+    - _TexBlendMode: 0
+    - _TextureBlendMode: 0
+    - _TowardCamera: 0
+    - _TransparentZWrite: 0
+    - _UseDisplacementMap: 0
+    - _UseDissolve: 0
+    - _UseDistort: 0
+    - _UseDistort1: 0
+    - _UseEdgeContact: 0
+    - _UseFog: 0
+    - _UseLighting: 0
+    - _UseMask: 0
+    - _UseParticleCustomData: 0
+    - _UseRim: 0
+    - _UseSubTexture: 0
+    - _ZTest: 4
+    - _ZTestAlways: 0
+    - _ZWrite: 0
+    - _rimEdge: 0.2
+    - _rimPower: 5
+    m_Colors:
+    - _AlbedoUVAni: {r: 0, g: 0, b: 0, a: 0}
+    - _AniSheetTile: {r: 4, g: 4, b: 0, a: 0}
+    - _BackColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _BackSubColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseMapAlphaMask: {r: 0, g: 0, b: 0, a: 1}
+    - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _ClipMinMax: {r: -1000, g: 1000, b: -1000, a: 1000}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorIntensityParam: {r: 1, g: 1, b: 1, a: 1}
+    - _DisplacementParam: {r: 0, g: 0, b: 0, a: 0}
+    - _DisplacementUVAni: {r: 0, g: 0, b: 0, a: 0}
+    - _DissolveAni: {r: 0, g: 0, b: 0, a: 0}
+    - _DissolveEdgeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveParam: {r: 0.5, g: 0.1, b: 0.2, a: 0.2}
+    - _DistortParam: {r: 0.15, g: 0.15, b: 0, a: 0}
+    - _DistortUVAni: {r: 0, g: 0, b: 0, a: 0}
+    - _EdgeContactColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FogParam: {r: 0, g: 1, b: 0.5, a: 0}
+    - _MainTexUVAni: {r: 0, g: 0, b: 0, a: 0}
+    - _MainUVAni: {r: 0, g: 0, b: 0, a: 0}
+    - _MaskMapParam: {r: 0, g: 0, b: 0, a: 0}
+    - _RimParam0: {r: 0, g: 0, b: 5, a: 0.2}
+    - _RimParam1: {r: 0, g: 0, b: 0, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _SubColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SubMapAlphaMask: {r: 0, g: 0, b: 0, a: 1}
+    - _SubUVAni: {r: 0, g: 0, b: 0, a: 0}
+    - _TextureContrastParam: {r: 0, g: 0, b: 0, a: 0}
+    - _TintColor: {r: 2.1185474, g: 2.1185474, b: 2.1185474, a: 1}
+    - _UVSourceParam0: {r: 0, g: 0, b: 0, a: 0}
+    - _UVSourceParam1: {r: 0, g: 0, b: 0, a: 0}
+    - _rimColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
