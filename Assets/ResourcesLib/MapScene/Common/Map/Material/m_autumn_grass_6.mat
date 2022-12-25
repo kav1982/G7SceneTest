@@ -149,7 +149,7 @@ Material:
     - _Stencil: 0
     - _StencilComp: 8
     - _Surface: 0
-    - _TerrainBlendFalloff: 2.95
+    - _TerrainBlendFalloff: 1.87
     - _TerrainBlendHeight: 0
     - _TerrainBlendToggle: 1
     - _TestValue: 2.32
@@ -190,7 +190,7 @@ Material:
     - _RimParam: {r: 0.4, g: 0.4, b: 0.1, a: 5}
     - _SSSColor: {r: 0.5, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _TerrainBlendParam: {r: 0, g: 2.95, b: 0, a: 0}
+    - _TerrainBlendParam: {r: 0, g: 1.87, b: 0, a: 0}
     - _TransparentParam: {r: 1, g: 0.796, b: 1, a: 0}
     - _VertexAOCol: {r: 0, g: 0, b: 0, a: 1}
     - _VertexAOParam: {r: 0, g: 0, b: 0, a: 1}
