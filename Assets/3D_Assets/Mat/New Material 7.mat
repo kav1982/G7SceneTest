@@ -113,6 +113,7 @@ Material:
     - _ButGradientToggle: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _ColorFalloff: 0.5
     - _Contrast: 0.5
     - _Cull: 2
     - _CullMode: 0
@@ -135,6 +136,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _GroundInfluence: 1
     - _Metallic: 0
     - _NormalScale: 1
     - _OcclusionStrength: 1
@@ -187,6 +189,7 @@ Material:
     - _EdgeParam: {r: 0.8, g: 0.6, b: 0.5, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FalloffParam: {r: 1, g: 1, b: 1, a: 1}
     - _NormalAOParam: {r: 1, g: 1, b: 0, a: 0}
     - _PenumbraTintColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimColorBack: {r: 0.5, g: 0.5, b: 0.5, a: 1}
@@ -195,7 +198,7 @@ Material:
     - _SSSColor: {r: 0.5, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _TerrainBlendParam: {r: 0.46, g: 1.04, b: 0, a: 0}
-    - _TransparentParam: {r: 0.958, g: 0.5, b: 0, a: 0}
+    - _TransparentParam: {r: 0.633, g: 0.5, b: 0, a: 0}
     - _VertexAOCol: {r: 0, g: 0, b: 0, a: 1}
     - _VertexAOParam: {r: 0, g: 0, b: 0, a: 1}
     - _WindParam: {r: 0, g: 0, b: 0, a: 0}
